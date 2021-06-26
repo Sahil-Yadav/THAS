@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  cursor: default;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: #0b0b0b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .main {
+  padding: 20px;
+  height: 100%;
+}
+
+body .main .quesNum {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+}
+
+body .main .main-wrap {
+  margin-left: 40px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+body .main .main-wrap .qHead {
+  font-weight: 300;
+  font-size: 36px;
+  color: gray;
+}
+
+body .main .main-wrap .mainQ {
+  margin-top: 10px;
+  color: lightgray;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+body .main .main-wrap .options {
+  margin-top: 20px;
+}
+
+body .main .main-wrap .options .option1,
+body .main .main-wrap .options .option2,
+body .main .main-wrap .options .option3,
+body .main .main-wrap .options .option4 {
+  margin-top: 30px;
+}
+
+body .main .main-wrap .options .option1 .optionN,
+body .main .main-wrap .options .option2 .optionN,
+body .main .main-wrap .options .option3 .optionN,
+body .main .main-wrap .options .option4 .optionN {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+body .main .main-wrap .options .option1 .opBtn,
+body .main .main-wrap .options .option2 .opBtn,
+body .main .main-wrap .options .option3 .opBtn,
+body .main .main-wrap .options .option4 .opBtn {
+  display: inline-block;
+  color: #0b0b0b;
+  padding: 5px 20px;
+  border-radius: 3px;
+  font-weight: 500;
+  background: #47c0b0;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body .main .main-wrap .options .option1 .opBtn:hover,
+body .main .main-wrap .options .option2 .opBtn:hover,
+body .main .main-wrap .options .option3 .opBtn:hover,
+body .main .main-wrap .options .option4 .opBtn:hover {
+  background: black;
+  color: #47c0b0;
+  border-radius: 5px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .main .main-wrap .index {
+  margin-top: 40px;
+  color: #bbbbbb;
+}
+/*# sourceMappingURL=style.css.map */
