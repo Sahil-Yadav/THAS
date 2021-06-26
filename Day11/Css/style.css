@@ -107,8 +107,90 @@ body .main .main-wrap .options .option4 .opBtn:hover {
   transition: 0.2s;
 }
 
+body .main .main-wrap .options .option1 .green,
+body .main .main-wrap .options .option2 .green,
+body .main .main-wrap .options .option3 .green,
+body .main .main-wrap .options .option4 .green {
+  background: #51df51;
+}
+
+body .main .main-wrap .options .option1 .red,
+body .main .main-wrap .options .option2 .red,
+body .main .main-wrap .options .option3 .red,
+body .main .main-wrap .options .option4 .red {
+  background: #eb3939;
+}
+
+body .main .main-wrap .options .option1 .no-click,
+body .main .main-wrap .options .option2 .no-click,
+body .main .main-wrap .options .option3 .no-click,
+body .main .main-wrap .options .option4 .no-click {
+  pointer-events: none;
+}
+
 body .main .main-wrap .index {
   margin-top: 40px;
   color: #bbbbbb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .main .main-wrap .next {
+  display: inline-block;
+  background: #47c0b0;
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+body .pop-up {
+  position: absolute;
+  background: #ff3471;
+  padding: 30px 50px;
+  font-weight: lighter;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+body .pop-up h1 {
+  padding: 0px 20px;
+}
+
+body .pop-up .play {
+  display: inline-block;
+  background: none;
+  border: 2px solid black;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  font-weight: bold;
+  outline: none;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+body .end {
+  visibility: visible;
+  pointer-events: all;
 }
 /*# sourceMappingURL=style.css.map */
